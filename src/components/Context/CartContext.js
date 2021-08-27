@@ -34,7 +34,6 @@ const DataProvider = ({children}) => {
         return cart.reduce( (item, items) => item + (items.precio * items.count), 0)
     }
 
-
     const deleteCart = () => setCart([]);
 
     return(

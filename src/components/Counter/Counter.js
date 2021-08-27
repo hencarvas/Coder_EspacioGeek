@@ -1,8 +1,6 @@
 import React from 'react';
 
-
 const Contador = ({ inicial, stock, count, setCount}) => {
-
   
   const add = () => {
     if (count === stock) {

@@ -51,11 +51,6 @@ const Form = ({cart}) => {
                 }
               });
             };
-
- 
-
-
-
     return(
         <>
         <DetailForm  addCart={addCart} cart={cart}/>
@@ -65,7 +60,3 @@ const Form = ({cart}) => {
 }
 
 export default Form;
-
-// orders.add(handleOrder).then((resp) => {alert('Agregado correctamente. N. Orden: ' + resp.id)}).catch((error) => {alert('error', error)});
-
-//                 deleteCart()

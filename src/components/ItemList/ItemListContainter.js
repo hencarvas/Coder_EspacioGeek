@@ -29,7 +29,6 @@ const ItemListContainer = () => {
                 }
             };
             
-
         getItems(catId);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [catId]);

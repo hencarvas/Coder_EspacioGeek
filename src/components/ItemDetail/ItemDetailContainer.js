@@ -3,10 +3,8 @@ import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";  
 import {database} from "../../Firebase/Firebase";
 
- 
 const DetailContainer = () => {
     const [itemToDisplay, setItemToDisplay] = useState([]);
-
 
     const {id} = useParams();
     

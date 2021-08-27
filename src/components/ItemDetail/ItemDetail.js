@@ -27,7 +27,6 @@ const ItemDetail = ({img, titulo, precio, stock, id}) => {
                 <h3 className="titulo-detail">{titulo}</h3>
                 {!finished? (
                     <>
-                    
                     <span className="precio-detail">$ {precio}</span>
                     <span className="titulo-detail">Stock: {stock}</span>
                     <Contador inicial={1} count={count} setCount={setCount} stock={stock}/>
