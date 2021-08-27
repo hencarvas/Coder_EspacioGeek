@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# EspacioGeek
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ir a la web [EspacioGeek](https://espaciogeek.netlify.app/)
 
-## Available Scripts
+![Demonstracion](https://media1.giphy.com/media/VLzWy5Yt6jHRjqittD/giphy.gif?cid=790b7611929e34f068c75c13f49474adf4921c8442ee2504&rid=giphy.gif&ct=g)
 
-In the project directory, you can run:
+¿Quienes somos?
 
-### `npm start`
+Somos una tienda con los mejores artículos geeks donde conseguis las principales novedades en artículos de todos los personajes de series, peliculas y comics del momento !
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Funcionamiento
 
-### `npm test`
+- En el home se encuentran todos los artículos.
+- Filtrado de artículos en cuatro categorias.
+- Seleccionar el artículo a comprar.
+- Detalle del artículo donde se puede seleccionar la cantidad a comprar y agregarlo al carrito.
+- Navegar al carrito donde se encuentra el artículo seleccionado anteriormente.
+- En el carrito se puede eliminar un producto o vaciarlo todo.
+- Terminar el formulario para realizar la compra y luego mostrara el identificador de la compra realizada.
+- El stock del artículo se reduce y al llegar a cero no permite realizar mas compras del miso.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Herramientas utilizadas 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **ReactJS** - con esta biblioteca de Javascript se desarrolló el proyecto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Sass** - Para el estilo con CSS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Firebase** - Para el almacenamiento de los artículos y las compras realizadas.
 
-### `npm run eject`
+- **Netlify** - Para almacenar la web en la nube.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Como ejecutarlo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Realizar prueva localmente
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Clonar el repositorio con el comado >**git:clone** 
+- Luego la URL del repositorio [Repositorio](https://github.com/hencarvas/Coder_EspacioGeek.git) y la ruta del directorio donde se guaradará.
+- Correr el comando **npm i** en la terminal 
+- Luego ejecutar el comando **npm start**
