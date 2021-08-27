@@ -1,0 +1,33 @@
+.div-datos-cliente{
+    display: flex;
+    flex-direction: column;
+    // position: fixed;
+    // position: sticky;
+}
+
+    .btn-compra{
+        background: #16C79A;
+        padding: 5px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 16px;
+        border-color: #16C79A;
+        font-weight: bold;
+        width: 30vh;
+        font-size: 3vh;
+        height: 10vh;
+        margin-top: 48px;
+        margin-left: 243px;
+    }
+
+    input{
+        margin: 10px
+
+       
+    }
+
+    .error{
+        color: red;
+        margin-bottom: -50px;
+        // display: none;
+    }

@@ -1,0 +1,21 @@
+{
+    "Categorias":
+    [
+        {
+            "id": 1,
+            "nombre": "Comics"
+        },
+        {
+            "id": 2,
+            "nombre": "Funkos"
+        },
+        {
+            "id": 3,
+            "nombre": "Remeras"
+        },
+        {
+            "id": 4,
+            "nombre": "Merchandising"
+        }
+    ]
+}

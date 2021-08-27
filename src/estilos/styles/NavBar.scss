@@ -1,0 +1,80 @@
+.navbar{
+    background: #03256C;
+    padding: 0px 10px;
+    // margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+    .nav-enlace, .div-cart{
+        display: inline-block;
+        background: #042a7e;
+        color: #E7E7DE;
+        font-weight: bold;
+        padding: 10px 30px;
+        text-decoration: none;    
+        margin-left: 10px;
+        cursor: pointer;
+        font-family: 'Montserrat Alternates', sans-serif; 
+    } 
+
+    // .div-cart{
+    //     display: flex;
+    //     flex-direction: row;
+    //     background: #042a7e;
+    //     color: #E7E7DE;
+    //     font-weight: bold;
+    //     padding: 10px 30px;
+    //     text-decoration: none;    
+    //     margin-left: 10px;
+    //     cursor: pointer;
+    //     font-family: 'Montserrat Alternates', sans-serif; 
+    //     width: 100px;
+    // }
+
+    .item-cart{
+        color: white;
+    }
+
+    .nav-enlace:hover{
+        background: #042f8a;
+        text-decoration: underline;
+    }
+
+    .div-cart:hover{
+        background: #042f8a;
+    }
+    
+    .titulo-prin{
+        color: #E7E7DE;
+        font-family: 'Righteous', cursive;
+        flex: 1 1 auto;
+        font-size: 40px;
+        margin: -5px;
+        // padding-right: 40px;
+        width: 250px;
+        text-decoration: none;
+    }
+
+        .cant-items{
+            border-radius: 50%;
+            background-color: springgreen;
+            width: 15px;
+            color: black;
+            font-size: 15px;
+            text-align: center;
+            position: absolute;
+            margin-left: 22px;
+            bottom: 28px;
+        }
+
+    .div-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 1000px;
+        padding-right: 20px;
+    }
