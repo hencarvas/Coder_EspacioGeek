@@ -40,7 +40,7 @@ const ItemDetail = ({img, titulo, precio, stock, id}) => {
                         <Link to="/cart" onClick={handleState}>
                             <button className="boton1"  onClick={() => {handleState()}}>Continuar al carrito</button>
                         </Link>
-                            <button className="boton2" onClick={() => {handleState(); modifyArticle(id)}}>Modificar</button>
+                            <button className="boton2" onClick={() => {handleState(); modifyArticle(id)}}>Volver</button>
                     </div>
                   
                     </>

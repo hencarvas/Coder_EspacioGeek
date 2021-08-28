@@ -49,7 +49,6 @@ const DetailForm = ({addCart}) => {
                 <input tipe="text" placeholder="Nombre y Apellido" name="nombre" onChange={handleInput} required/>
                 <label>Telefono</label>
                 <input tipe="text" placeholder="(11)1234567" name="telefono" onChange={handleInput} required/>
-                
                 <label>Correo Electrónico</label>
                 <input tipe="email" placeholder="mail@mail.com" name="email" onChange={handleInput} required 
                 onInput={onChange}  onKeyUp={validacion}/>

@@ -17,13 +17,18 @@ const CartWidget = () => {
         <div className="div-carrito">
             {cart.length <= 0 ? (
                 <div className="volver-ini">
-                <h3 >No hay Productos en el Carrito</h3>
-                <NavLink to="/" className="" >Vuelve para hacer tus compras</NavLink>
+                <h3>Carrito Vacio</h3>
+                <NavLink to="/" className="" >
+                    <button className="boton-volver">
+
+                    Vuelve para hacer tus compras
+                    </button>
+                    </NavLink>
                 </div>
             ) : (
                 <div className="contenedor-cart">
                     <div className="div-cart-items">
-                    <h2>Tus Artículos</h2>
+                    <h2>Lista de Tus Artículos</h2>
                     {cart.map((item) => (
                         <CartItem item={item} key={item.id}/>
                         ))
@@ -34,7 +39,7 @@ const CartWidget = () => {
                     </div>
                     </div>
                     <div className="div-cliente">
-                        <h2>Datos del Cliente</h2>
+                        <h2>Datos del cliente para la compra</h2>
                         <Form cart={cart} />           
                     </div>
                 </div>
