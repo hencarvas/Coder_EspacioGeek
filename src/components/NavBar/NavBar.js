@@ -27,7 +27,7 @@ const NavBar = () => {
                 </div>
             </NavLink>
             </div>
-        </nav>
+        </nav> 
     );
 }; 
 

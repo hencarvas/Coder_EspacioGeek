@@ -1,6 +1,5 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
-
 }
 .div-content{
     margin-top: 130px;
@@ -10,7 +9,6 @@ body{
     background-color:#FFFFFF;
     min-height: 100vh;
 }
-
 
     .cart-top{
         background-color: #FFFFFF;
@@ -57,7 +55,6 @@ body{
         font-weight: bold;
         width: 20vh;
         font-size: 2.2vh;
-        // margin-left: 370px;
         margin-top: 10px;
     }
 
@@ -95,4 +92,45 @@ body{
     margin-left: 740px;
     position: fixed;
     
+}
+
+@media all and (max-width: 1255px) {
+
+    .contenedor-cart{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .cart-top{
+        width: 90px;
+    }
+
+    .div-content{
+        margin-top: -200px;
+        width: 900px;
+        margin-left: -100px;
+        margin-right: 20px;
+    }
+
+    .div-cliente{
+        margin-left: 0px;
+        margin-top: 420px;        
+    }
+}
+
+@media all and (max-width: 750px) {
+    .div-content{
+        margin-top: 70px;
+        margin-left: -100px;
+        margin-right: 20px;
+    }
+    
+    .div-cliente{
+        margin-top: 420px;        
+    }
+
+    .div-carrito{
+        width: 400px;
+        margin-left: 250px;
+    }
 }

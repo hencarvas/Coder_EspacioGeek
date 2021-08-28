@@ -14,3 +14,15 @@
     background-color: #FFFFFF;
     width: 100%;
 }
+
+@media all and (max-width: 750px) {
+    .contenedor{
+        margin-top: 266px;
+    }
+}
+
+@media all and (max-width: 575px){
+    .contenedor{
+        margin-top: 304px;
+    }
+}

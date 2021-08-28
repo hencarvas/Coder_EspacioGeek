@@ -1,8 +1,6 @@
 .div-datos-cliente{
     display: flex;
     flex-direction: column;
-    // position: fixed;
-    // position: sticky;
 }
 
     .btn-compra{
@@ -22,12 +20,18 @@
 
     input{
         margin: 10px
-
-       
     }
 
     .error{
         color: red;
         margin-bottom: -50px;
-        // display: none;
     }
+
+@media all and (max-width: 1255px) {
+    .btn-compra{
+        height: 5vh;
+        width: 25vh;
+        font-size: 2vh;
+
+    }
+}

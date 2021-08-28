@@ -87,4 +87,33 @@
 
     }
 
-   
+@media all and (max-width: 750px) {
+    .article-detail{
+        margin-top: 280px;
+        }
+    }
+
+@media all and (max-width: 650px) {
+    .article-detail{
+        margin-top: 310px;
+        flex-direction: column;
+        align-items: center;        
+    }
+    .div-img{
+        margin-top: 115px;
+        margin-bottom: -20px;
+    }
+        .img-detail{
+            height: 50vh;
+            width: 40vh;
+        }
+    
+        .titulo-detail{
+            font-size: 4vw; 
+        }
+
+        .precio-detail{
+            color: #03256C;
+            font-size: 4vw; 
+        }
+    }
