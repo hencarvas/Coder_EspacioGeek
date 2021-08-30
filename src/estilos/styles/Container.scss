@@ -6,11 +6,12 @@ html,body{
 
 
 .container{
+    background-image:  url("https://as1.ftcdn.net/v2/jpg/01/87/80/60/500_F_187806020_9zpto7kow4QfBA1X8gSrsOjqGO3sQJLP.jpg");
     background-color: rgb(237,237,237);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 89vh;
+    min-height: 100vh;
     justify-content: space-evenly;
 }

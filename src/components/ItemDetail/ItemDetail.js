@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../Context/CartContext';
 import Contador from './../Counter/Counter';
+import {Modal} from '@material-ui/core';
 
 const ItemDetail = ({img, titulo, precio, stock, id}) => {
    
@@ -13,11 +14,27 @@ const ItemDetail = ({img, titulo, precio, stock, id}) => {
 
     const {addToCart, modifyArticle} = useContext(CartContext);
     
-    
     const handleAdd = () => {
         addToCart({ img, titulo, precio,  count, id});
     }
     
+    // PopUp Forma de pago
+    const [ventana, setVentana] = useState(false);
+    const abrirVentana = ( )=> {
+        setVentana(!ventana);
+    }
+
+    const popup = ( 
+        <div class="overlay">
+            <div class="popup">
+                <button onClick={() => abrirVentana()} class="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <h3>Formas de Pago</h3>
+                <img src="https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0033/3717/Que_tarjetas_acepta_Mercado_Pago.jpg?1552322626" alt="img-pagos" className="img-pagos"></img>
+                
+            </div>
+        </div>
+    );
+     
     return (
         <article className="article-detail">
             <div className="div-img">
@@ -42,9 +59,12 @@ const ItemDetail = ({img, titulo, precio, stock, id}) => {
                         </Link>
                             <button className="boton2" onClick={() => {handleState(); modifyArticle(id)}}>Volver</button>
                     </div>
-                  
                     </>
                 )}
+                <a href="#top" className="abrir-popup" onClick={() => abrirVentana()}>Formas de pago</a>
+               <Modal open={ventana} onClose={abrirVentana}>
+                   {popup}
+                 </Modal>
             </div>
         </article>
     );

@@ -18,11 +18,9 @@ const CartWidget = () => {
             {cart.length <= 0 ? (
                 <div className="volver-ini">
                 <h3>Carrito Vacio</h3>
+                <img className="icono-ghost" alt="icono-sad" src="https://img.icons8.com/nolan/50/sad-ghost.png"/>
                 <NavLink to="/" className="" >
-                    <button className="boton-volver">
-
-                    Vuelve para hacer tus compras
-                    </button>
+                    <button className="boton-volver">Vuelve para hacer tus compras</button>
                     </NavLink>
                 </div>
             ) : (

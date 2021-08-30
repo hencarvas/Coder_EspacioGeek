@@ -9,7 +9,6 @@ const DetailForm = ({addCart}) => {
         const {name, value} = e.target;
         setInputs({...inputs, [name]: value})
     }
-
     
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -22,7 +21,6 @@ const DetailForm = ({addCart}) => {
             setValidarForm(false)
         }
     }
-
 
     // Validar formulario
     const expresiones =  {

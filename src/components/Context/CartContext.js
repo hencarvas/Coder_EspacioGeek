@@ -34,7 +34,12 @@ const DataProvider = ({children}) => {
         return cart.reduce( (item, items) => item + (items.precio * items.count), 0)
     }
 
-    const deleteCart = () => setCart([]);
+    const deleteCart = () => {
+        if(window.confirm('¿Eliminar todos los artículos de tu carrito?')) {
+            setCart([])
+        }
+    };
+
 
     return(
         <CartContext.Provider value={{cart, addToCart, removeToCart, deleteCart, quantityItmes, totalCart, modifyArticle}}>

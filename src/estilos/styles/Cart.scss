@@ -18,6 +18,8 @@ body{
         width: 1230px;
         align-items: center;
         justify-content: space-between;
+        box-shadow: 0px 0px 5px rgba(12, 64, 141, 0.932);
+
     }
 
     .tit-carrito{
@@ -30,6 +32,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 1230px;
+
 }
 
 .div-carrito{
@@ -37,6 +40,8 @@ body{
     width: 1230px;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 0px 5px rgba(12, 64, 141, 0.932);
+
 }
 
 .div-cart-items{
@@ -84,6 +89,10 @@ body{
     padding-bottom: 5px;
 }
 
+.icono-ghost{
+    height: 10vh;
+}
+
 .boton-volver{
     background: #16C79A;
     border-color: #16C79A;
@@ -91,7 +100,8 @@ body{
     font-weight: bold;
     font-size: 2.2vh;
     border-radius: 16px;
-
+    margin-bottom: 18px;
+    
 }
 
 .div-cliente{
